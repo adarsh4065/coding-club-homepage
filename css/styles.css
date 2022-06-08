@@ -1,0 +1,194 @@
+/*csslint box-sizing: false*/
+body {
+  background: #fff;
+  font-family: source sans pro, Arial, sans-serif;
+  color: #696969;
+  line-height: 22px;
+  font-size: 14px;
+  text-align: center;
+}
+body{
+  overflow-x: hidden !important;
+}
+
+@media (max-width:1200px){
+  .remove{
+    display: none;
+  }
+}
+
+h1 {
+
+  padding: 10px;
+  margin: 0 auto 0 auto;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  vertical-align: middle;
+  border: 0;
+}
+
+.top-bar {
+  padding: 10px 0;
+  background: #005387;
+  border-bottom: 1px solid #222;
+}
+
+.navbar-brand {
+  padding: 0;
+  margin: 0;
+}
+.navbar-brand {
+    float: left;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.container{
+  width: 1170px;
+}
+
+.container::before, .container::after {
+  display: table;
+  content: " ";
+}
+
+::after, ::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container::after {
+  clear: both;
+}
+
+.container::after {
+  clear: both;
+}
+
+.container::before, .container::after {
+  display: table;
+  content: " ";
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.col-sm-6 {
+  width: 50%;
+  float: left;
+}
+
+.col-sm-6, .col-sm-8 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+*, ::before, ::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.style {
+    vertical-align: top;
+}
+.social-share {
+    display: inline-block;
+    list-style: none;
+    padding: 0 12px 0 0;
+    margin: 0;
+}
+.social {
+    text-align: right;
+    margin-top: 15px;
+}
+
+ul li{
+  display: inline;;
+}
+
+.first{
+  background: #85B3D1FF;
+  padding: 8em;
+}
+.second{
+  background: #B3C7D6FF;
+  padding: 4em;
+}
+.third{
+  background: #D9B48FFF;
+  padding: 4em;
+}
+
+.fourth{
+  background: #42EADDFF;
+  padding: 4em;
+}
+.heading{
+  font-size: 2em;
+}
+
+
+@media(max-width:375.2px){
+  body{
+    line-height: 0%;
+  }
+}
+
+
+hr{
+  border: dotted;
+  border-bottom: none;
+  width: 4%;
+}
+
+.left_side{
+  margin-top: 8em;
+  text-align: left;
+  width: 50%
+}
+
+.right_side{
+  margin-top: 8em;
+  text-align: right;
+  width: 50%;
+  margin: 8em 2em auto auto;
+}
+.one{
+  width: 8em;
+  float: left;
+  margin-right: 1em;
+}
+.two{
+  width: 8em;
+  float: right;
+  margin-left: 1em;
+}
+.anchorwa{
+  color: #696969;
+}
+.anchorwa:hover{
+  color:white;
+}
+@media (min-width:1200px){
+  .smallie{
+    display:none;
+    margin-bottom: 10em;;
+  }
+}
